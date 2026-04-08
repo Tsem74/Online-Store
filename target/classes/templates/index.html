@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome Page</title>
+    <link th:href="@{/css/styles.css}" rel="stylesheet">
+</head>
+<body>
+<div th:replace="fragments/header :: header"></div>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <div class="card shadow-lg">
+                <div class="card-body p-5">
+                    <h1 class="card-title mb-4">Welcome to Your Dashboard</h1>
+                    <p class="lead mb-5">Manage your products efficiently with our online store management system.</p>
+                    <a th:href="@{/products}" class="btn btn-primary btn-lg">Go to Product Management</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

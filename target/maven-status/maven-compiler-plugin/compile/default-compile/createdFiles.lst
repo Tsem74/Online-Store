@@ -1,0 +1,5 @@
+com\fsb\onlinestore\web\controllers\ProductController.class
+com\fsb\onlinestore\web\models\requests\ProductForm.class
+com\fsb\onlinestore\web\controllers\HomeController.class
+com\fsb\onlinestore\OnlinestoreApplication.class
+com\fsb\onlinestore\web\models\Product.class
